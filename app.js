@@ -4,7 +4,7 @@
 ***/
 
 // require our loader
-var loader = require("loader");
+var loader = require("node-script-loader");
 
 // init a global "config" by requiring config/index.js 
 // anything declared in the index.js which exports "config" will be available as a global app wide
