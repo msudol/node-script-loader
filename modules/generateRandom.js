@@ -8,6 +8,6 @@ var generateRandom = function generateRandom(start, count) {
     
     return Math.floor((Math.random() * amount) + begin); 
     
-}
+};
 
 module.exports = generateRandom;
