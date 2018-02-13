@@ -1,3 +1,5 @@
+// Run this script, it will use the generate random module, using the config.random config.
+
 var getRandom = function() {
 
     setInterval(function(){ 

@@ -1,3 +1,5 @@
+// run this script on load, it will pull the values from config.test in /config
+
 var test = function() {
     
     setInterval(function(){ 
