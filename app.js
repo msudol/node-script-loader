@@ -7,17 +7,17 @@
 var loader = require("node-script-loader");
 
 /* 
-    This example loads up a config in the global scope based on the directory "config".
+    This example loads the files in /config, not executing, and as children of the "config" object.
 */
 loader("config", false, true);
 
 /*
-    This example loads up the modules in a global scope based on the module filename and NOT as a child of "modules"
+    This example loads the files in /modules, not executing, based on the filename and NOT as a child of "modules"
 */
-loader("modules", false, false);
+loader("modules", false);
 
 /*
-    This example attempts to run the files as functions that it locates in the "scripts" folder
+    This example attempts to run the files as functions that it locates in the "scripts" folder, not as a child, with logging on
 */
-loader("scripts", true, false);
+loader("scripts", true, false, true);
 

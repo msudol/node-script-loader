@@ -17,6 +17,7 @@ rl.on('line', function(line) {
     else if (line.startsWith("inspect")) {
         newline = line.split(" "); 
         inspect(newline[1]);
+        rl.prompt();
     }
     else {
         rl.prompt();
