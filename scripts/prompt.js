@@ -11,13 +11,16 @@ rl.prompt();
 rl.on('line', function(line) {
     
     // close if user types quit
-    if (line === "quit") rl.close();
-    
-    // could put a switch or if/else bundle in here for other console commands
-    
-    
-    // else, add the prompt again
-    rl.prompt();
+    if (line === "quit") {
+        rl.close();
+    }
+    else if (line.startsWith("inspect")) {
+        newline = line.split(" "); 
+        inspect(newline[1]);
+    }
+    else {
+        rl.prompt();
+    }
     
 }).on('close',function(){
     process.exit(0);
