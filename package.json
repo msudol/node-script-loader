@@ -1,6 +1,6 @@
 {
 	"name":"node-script-loader",
-	"version":"0.0.2",
+	"version":"0.0.3",
 	"description":"A script loading node.js app just for fun.",
 	"author":"Matthew Sudol",
 	"url":"https://github.com/msudol"
