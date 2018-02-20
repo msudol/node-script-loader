@@ -1,0 +1,11 @@
+{
+	"name":"node-script-loader-examples",
+	"version":"1.0.0",
+	"description":"An example of a script loading node.js app just for fun.",
+	"author":"Matthew Sudol",
+	"url":"https://github.com/msudol"
+    "dependencies": 
+    {
+        "node-script-loader": "latest",
+    }
+}

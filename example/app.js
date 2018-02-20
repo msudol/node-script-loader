@@ -9,12 +9,12 @@ var loader = require("node-script-loader");
 /* 
     This example loads the files in /config, not executing, and as children of the "config" object.
 */
-loader("config", false, true);
+loader("config", false, true, true);
 
 /*
     This example loads the files in /modules, not executing, based on the filename and NOT as a child of "modules"
 */
-loader("modules", false);
+loader("modules", false, false, true);
 
 /*
     This example attempts to run the files as functions that it locates in the "scripts" folder, not as a child, with logging on

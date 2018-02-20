@@ -6,8 +6,6 @@ var rl = readline.createInterface(process.stdin, process.stdout);
 
 rl.setPrompt('CMD> ');
 
-rl.prompt();
-
 rl.on('line', function(line) {
     
     // close if user types quit
@@ -26,6 +24,11 @@ rl.on('line', function(line) {
         setvar(newline);
         rl.prompt();
     }    
+    // run the setvar code (eval a string basically)
+    else if (line.startsWith("?") || line.startsWith("help")) {
+        console.log("Try the following commands out:  \n > inspect config \n > setvar config.test.world = 'earth' \n > quit");
+        rl.prompt();
+    }        
     else {
         rl.prompt();
     }
@@ -33,5 +36,6 @@ rl.on('line', function(line) {
 }).on('close',function(){
     process.exit(0);
 });
+
 
 module.exports = rl;
