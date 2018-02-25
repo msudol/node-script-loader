@@ -1,5 +1,5 @@
 /**
- * Node Script Loader - A simple system to automatically load folders of node.js modules
+ * Node Script Loader - A simple system to dynamically load scripts from subdirectories without the need for require statements.
  * @license Apache-2.0
  *
  *  https://github.com/msudol/node-script-loader
