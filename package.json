@@ -1,7 +1,7 @@
 {
 	"name":"node-script-loader",
-	"version":"0.0.5",
-	"description":"A simple subfolder automatic script importer for node.js submodules",
+	"version":"0.0.6",
+	"description":"A simple subfolder based automatic script importer for node.js submodules",
     "keywords": [
     	"loader",
     	"module",

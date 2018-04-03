@@ -9,7 +9,7 @@ This is a full example of NSL that shows some of the features of the module and 
 
 ## Info
 
-This start out as just a test project I was playing with to create a loading system in Node.js
+This started out as just a test project I was playing with to create a loading system in Node.js
 
 The concept is to create some subfolders in which the *.js extensions will simply load into the node app.
 
