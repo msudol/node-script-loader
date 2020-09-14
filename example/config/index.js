@@ -4,4 +4,6 @@ var config = {};
 
 config.version = "1.0";
 
+config.prefix = "CMD>";
+
 module.exports = config;

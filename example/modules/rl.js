@@ -4,9 +4,10 @@ var readline = require('readline');
 
 var rl = readline.createInterface(process.stdin, process.stdout);
 
-rl.setPrompt('CMD> ');
-
 rl.on('line', function(line) {
+    
+    // set the prompt
+    rl.setPrompt('CMD> ');
     
     // close if user types quit
     if (line === "quit") {
